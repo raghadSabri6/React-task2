@@ -1,8 +1,9 @@
-# React + Vite
+## Counter Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Counter component has been implemented with the functionality to increment the count when a button is clicked. To maintain scoped styles and prevent style conflicts, CSS modules have been utilized for styling. The following files have been updated as part of this implementation:
 
-Currently, two official plugins are available:
+- **Count.jsx**: This file contains the Counter component implementation. It utilizes the useState hook to manage the count state and defines a function to handle count incrementation upon button click.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Count.module.css**: This CSS module file contains styles specific to the Counter component. The `.btn` class defined here is applied to the button element in Count.jsx to ensure consistent styling within the component.
+
+This approach ensures a modular and maintainable codebase, facilitating better organization and scalability of the project.
